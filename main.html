@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY WALLET</title>
+    <link rel="stylesheet" href="main-style.css" />
+  </head>
+
+  <body>
+    <div class="top">
+      <h1>Current balance</h1>
+      <div class="balance">3840€</div>
+    </div>
+
+    <div class="cont">
+      <div class="transactions">
+        <div class="row">
+          <span class="tag deposit">1 deposit</span>
+          <span class="amount">300 €</span>
+        </div>
+        <div class="row">
+          <span class="tag reddd">2 withdrawal</span>
+          <span class="amount">180 €</span>
+        </div>
+        <div class="row">
+          <span class="tag deposit">3 deposit</span>
+          <span class="amount">100 €</span>
+        </div>
+        <div class="row">
+          <span class="tag deposit">4 deposit</span>
+          <span class="amount">140 €</span>
+        </div>
+        <div class="row">
+          <span class="tag reddd">5 withdrawal</span>
+          <span class="amount">240 €</span>
+        </div>
+        <div class="row">
+          <span class="tag deposit">6 deposit</span>
+          <span class="amount">200 €</span>
+        </div>
+        <div class="row">
+          <span class="tag reddd">7 withdrawal</span>
+          <span class="amount">100 €</span>
+        </div>
+        <div class="row">
+          <span class="tag deposit">8 deposit</span>
+          <span class="amount">400 €</span>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card transfer">
+          <h2>Transfer money</h2>
+
+          <div class="inputs">
+            <input type="text" class="transfer-to" placeholder="" />
+            <input type="text" class="transfer-amount" placeholder="" />
+            <button class="transfer-btn">→</button>
+          </div>
+
+          <div class="labels">
+            <span>Transfer to</span>
+            <span>Amount</span>
+          </div>
+        </div>
+
+        <div class="card loan">
+          <h2>Request loan</h2>
+
+          <div class="inputs">
+            <input type="text" placeholder="" />
+            <button>→</button>
+          </div>
+
+          <div class="labels">
+            <span>Amount</span>
+          </div>
+        </div>
+
+        <div class="card close">
+          <h2>Close account</h2>
+
+          <div class="inputs">
+            <input type="text" placeholder="" />
+            <input type="text" placeholder="" />
+            <button>→</button>
+          </div>
+
+          <div class="labels">
+            <span>Confirm user</span>
+            <span>Confirm PIN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div>In <span class="green">5020 €</span></div>
+      <div>Out <span class="red">1180 €</span></div>
+      <div>Interest <span class="green">59.4 €</span></div>
+      <p class="logout-timer">
+        You will be logged out in <span class="timer">05:00</span>
+      </p>
+    </div>
+  </body>
+</html>
