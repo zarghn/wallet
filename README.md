@@ -45,7 +45,7 @@ Since this project has no dependencies or backend, you can run it right away:
 Clone the repository:
 
 
-bash   git clone https://github.com/YOUR-USERNAME/my-wallet.git
+bash   git clone https://github.com/zarghn/wallet
 
 
 Open index.html directly in your browser (or use the Live Server extension in VS Code).
