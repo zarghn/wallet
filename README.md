@@ -30,8 +30,7 @@ JavaScript (Vanilla, no libraries)
 📁 Project Structure
 
 my-wallet/
-├── index.html         <img width="4419" height="2486" alt="design - page 2" src="https://github.com/user-attachments/assets/7f96eb0c-dfc5-4b69-ac8f-1664132cfdd4" />
-# Login page
+├── index.html         # Login page
 ├── main.html          # Main wallet page
 ├── main-style.css     # Stylesheet
 ├── data.js            # Mock accounts data
